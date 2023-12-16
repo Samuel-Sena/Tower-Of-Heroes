@@ -1,7 +1,7 @@
 # Gameland - Tower Of Heroes
 
-<h1 align="center"> <img src="x.png" width="600px"/>  </h1>
-<h1 align="center"> <img src="x" width="600px"/>  </h1>
+<h1 align="center"> <img src="Tower-Of-Heroes-Run/sprites/stand-01.png" width="600px"/>  </h1>
+<h1 align="center"> <img src="Tower-Of-Heroes-Run/sprites/stand-02.png" width="600px"/>  </h1>
 <p>Projeto feito em GML linguagem do da engine Gamemaker 2<br>
 Project made in the GML language of the Gamemaker 2 engine</p>
 
@@ -14,9 +14,11 @@ Project made in the GML language of the Gamemaker 2 engine</p>
  </ul>
 
 ## Running
-To run the app issue command python 
+Tenha o Gamemaker 2 intalado
+Baixe o repositório
 ~~~
-main.py
+https://github.com/Samuel-Sena/Tower-Of-Heroes
 ~~~
+importe para o Gamemaker 2, o arquivo .yyp 
 
 ### Dessa forma você estará conectado ao Game !

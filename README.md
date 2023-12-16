@@ -1,6 +1,5 @@
 # Gameland - Tower Of Heroes
 
-<h1 align="center"> <img src="Tower-Of-Heroes-Run/sprites/stand-01.png" width="600px"/>  </h1>
 <h1 align="center"> <img src="Tower-Of-Heroes-Run/sprites/stand-02.png" width="600px"/>  </h1>
 <p>Projeto feito em GML linguagem da engine Gamemaker 2<br>
 Project made in the GML language of the Gamemaker 2 engine</p>

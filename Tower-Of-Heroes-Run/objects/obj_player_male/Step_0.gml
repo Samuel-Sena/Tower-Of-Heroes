@@ -8,10 +8,14 @@ var chao = place_meeting(x, y + 1, obj_block);
 right = keyboard_check(ord("D"));
 left = keyboard_check(ord("A"));
 shift = keyboard_check(vk_shift);
-jump = keyboard_check(ord("W"));
+jump = keyboard_check(ord("W")) || keyboard_check(vk_space);
 backstep = keyboard_check(ord("Q"));
-block = mouse_check_button_pressed(mb_right);
-attack_base = mouse_check_button(mb_left);
+block = mouse_check_button_pressed(mb_right) || keyboard_check(ord("K"));
+attack_base = mouse_check_button(mb_left) || keyboard_check(ord("J"));
+
+if (keyboard_check_pressed(ord("R"))) {
+     scr_reset_game(); // Chama o script (scr_reset_game) de reset do jogo
+}
 
 //Step
 
@@ -268,6 +272,7 @@ switch(state)
 	 {
 		 sprite_index = play_male_jump_back;
 		 velh = -7.8;
+		 break;
 	 }	 
 	
 	 case "defend":
@@ -278,7 +283,7 @@ switch(state)
 		 right = velh;
 	     left = velh;
 		 
-		 if (mouse_check_button_released(mb_right))
+		 if (mouse_check_button_released(mb_right) || keyboard_check_released(ord("K")))
 		 {
 			 state = "idle";
 		 }
